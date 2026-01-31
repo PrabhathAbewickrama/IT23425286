@@ -1,0 +1,13 @@
+{
+  "executedAt": "2026-01-31T15:37:22.067Z",
+  "results": [
+    {
+      "tcId": "Pos_UI_0001",
+      "name": "Copy–Paste Input with Extra Spaces and Line Breaks",
+      "input": "aadhyathmika   suva  \r\n\r\nsiyallatama   vadaa   uthum vee",
+      "expected": "ආධ්‍යාත්මික සුව සියල්ලටම වඩා උතුම් වේ",
+      "actual": "ආද්යත්මික   suva  \n\n\n\nසියල්ලටම   වඩා   උතුම් වේ",
+      "status": "Fail"
+    }
+  ]
+}
